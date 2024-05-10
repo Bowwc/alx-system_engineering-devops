@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # writing a basg script that listens on port 98 on localhost
 
-nc -1 localhost 98
+nc -l localhost 98
